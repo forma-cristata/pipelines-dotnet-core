@@ -7,7 +7,7 @@ trigger:
 - master
 
 pool:
-  vmImage: ubuntu-latest
+  name: Self Hosted Parallelism
 
 steps:
 - script: echo Hello, world!
